@@ -412,7 +412,7 @@ describe('importSchema', () => {
   });
 
   // TODO: later
-  test('importSchema: multiple key directive', () => {
+  test.skip('importSchema: multiple key directive', () => {
     const expectedSDL = /* GraphQL */`\
           scalar UPC
 
